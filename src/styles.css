@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #d6d6d6;
+  /* background-image: url(../src/assets/board-bright-design-fabric-235994.jpg);
+  background-size: cover; */
+}
