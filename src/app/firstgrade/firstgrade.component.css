@@ -1,4 +1,22 @@
-p {
+body {
+  margin: auto;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  height: auto;
+  width: 80%;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+}
+
+h1 {
+  text-decoration: underline;
+}
+/* p {
   margin: auto;
   padding-top: 5em;
   text-align: center;
@@ -9,4 +27,4 @@ p {
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
-}
+} */

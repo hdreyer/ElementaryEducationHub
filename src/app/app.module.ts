@@ -1,28 +1,30 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { KindergartenComponent } from './kindergarten/kindergarten.component';
-import { FirstgradeComponent } from './firstgrade/firstgrade.component';
-import { SecondgradeComponent } from './secondgrade/secondgrade.component';
-import { ThirdgradeComponent } from './thirdgrade/thirdgrade.component';
-import { FourthgradeComponent } from './fourthgrade/fourthgrade.component';
-import { FifthgradeComponent } from './fifthgrade/fifthgrade.component';
-import { PhonicsComponent } from './phonics/phonics.component';
-import { ReadingComponent } from './reading/reading.component';
-import { SpellingComponent } from './spelling/spelling.component';
-import { GrammarComponent } from './grammar/grammar.component';
-import { MathComponent } from './math/math.component';
-import { ScienceComponent } from './science/science.component';
-import { HistoryComponent } from './history/history.component';
-import { ArtComponent } from './art/art.component';
-import { SpecialneedsComponent } from './specialneeds/specialneeds.component';
-import { MissionComponent } from './mission/mission.component';
-import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { HomepageComponent } from "./homepage/homepage.component";
+import { KindergartenComponent } from "./kindergarten/kindergarten.component";
+import { FirstgradeComponent } from "./firstgrade/firstgrade.component";
+import { SecondgradeComponent } from "./secondgrade/secondgrade.component";
+import { ThirdgradeComponent } from "./thirdgrade/thirdgrade.component";
+import { FourthgradeComponent } from "./fourthgrade/fourthgrade.component";
+import { FifthgradeComponent } from "./fifthgrade/fifthgrade.component";
+import { ReadingComponent } from "./reading/reading.component";
+import { SpellingComponent } from "./spelling/spelling.component";
+import { WritingComponent } from "./writing/writing.component";
+import { MathComponent } from "./math/math.component";
+import { ScienceComponent } from "./science/science.component";
+import { HistoryComponent } from "./history/history.component";
+import { ArtComponent } from "./art/art.component";
+import { SpecialneedsComponent } from "./specialneeds/specialneeds.component";
+import { MissionComponent } from "./mission/mission.component";
+import { FooterComponent } from "./footer/footer.component";
+import { ContactComponent } from "./contact/contact.component";
+import { GoTopButtonModule } from "ng2-go-top-button";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { NgImageSliderModule } from "ng-image-slider";
 
 @NgModule({
   declarations: [
@@ -35,10 +37,9 @@ import { ContactComponent } from './contact/contact.component';
     ThirdgradeComponent,
     FourthgradeComponent,
     FifthgradeComponent,
-    PhonicsComponent,
     ReadingComponent,
     SpellingComponent,
-    GrammarComponent,
+    WritingComponent,
     MathComponent,
     ScienceComponent,
     HistoryComponent,
@@ -46,13 +47,16 @@ import { ContactComponent } from './contact/contact.component';
     SpecialneedsComponent,
     MissionComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoTopButtonModule,
+    BrowserAnimationsModule,
+    NgImageSliderModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

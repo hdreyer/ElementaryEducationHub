@@ -7,10 +7,9 @@ import { SecondgradeComponent } from "./secondgrade/secondgrade.component";
 import { ThirdgradeComponent } from "./thirdgrade/thirdgrade.component";
 import { FourthgradeComponent } from "./fourthgrade/fourthgrade.component";
 import { FifthgradeComponent } from "./fifthgrade/fifthgrade.component";
-import { PhonicsComponent } from "./phonics/phonics.component";
 import { ReadingComponent } from "./reading/reading.component";
 import { SpellingComponent } from "./spelling/spelling.component";
-import { GrammarComponent } from "./grammar/grammar.component";
+import { WritingComponent } from "./writing/writing.component";
 import { MathComponent } from "./math/math.component";
 import { ScienceComponent } from "./science/science.component";
 import { HistoryComponent } from "./history/history.component";
@@ -27,10 +26,9 @@ const routes: Routes = [
   { path: "thirdgrade", component: ThirdgradeComponent },
   { path: "fourthgrade", component: FourthgradeComponent },
   { path: "fifthgrade", component: FifthgradeComponent },
-  { path: "phonics", component: PhonicsComponent },
   { path: "reading", component: ReadingComponent },
   { path: "spelling", component: SpellingComponent },
-  { path: "grammar", component: GrammarComponent },
+  { path: "writing", component: WritingComponent },
   { path: "math", component: MathComponent },
   { path: "science", component: ScienceComponent },
   { path: "history", component: HistoryComponent },
@@ -41,7 +39,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, { scrollPositionRestoration: "enabled" }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
