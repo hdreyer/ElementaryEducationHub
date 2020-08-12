@@ -1,4 +1,15 @@
-<body>
+<div class="scroll-up">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <button (click)="goToTop()" id="button" *ngIf="scrolled == 1"><i class="far fa-arrow-alt-circle-up"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-container">
     <h1>Fourth Grade Educational Videos</h1>
 
     <!-- Reading Videos -->
@@ -18,4 +29,4 @@
 
     <!-- History Videos -->
     <h3>History:</h3>
-</body>
+</div>
