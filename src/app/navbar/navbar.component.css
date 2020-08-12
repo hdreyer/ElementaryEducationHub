@@ -48,6 +48,7 @@ header {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   justify-content: space-evenly;
+  z-index: 999;
 }
 
 /* Navigation links */
