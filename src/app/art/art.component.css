@@ -1,31 +1,58 @@
 .page-container {
-  /* margin: auto; */
   padding-top: 1em;
   padding-bottom: 3em;
-  /* padding-left: 8%;
-  padding-right: 8%; */
-  /* text-align: center; */
-  /* height: auto; */
-  /* width: 80%; */
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
   z-index: 1;
-  /* position: relative; */
+  position: relative;
 }
 
-/* p {
-  margin: auto;
-  padding-top: 5em;
-  text-align: center;
-  height: 100vh;
-  width: 80%;
-  padding-left: 8%;
-  padding-right: 8%;
-  background-color: #ffffff;
-  border-left: 4px solid black;
-  border-right: 4px solid black;
-} */
+iframe {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.title {
+  justify-self: center;
+}
+
+.titlehr {
+  border-top: 10px solid #333;
+  width: 95%;
+}
+
+.normalhr {
+  border-top: 10px solid #d6d6d6;
+  width: 95%;
+}
+
+.lesspadding {
+  border-top: 5px solid #d6d6d6;
+  width: 95%;
+  padding: 0%;
+}
+
+h1 {
+  text-decoration: underline;
+  padding-top: -2%;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.col-sm-3 {
+  align-self: right;
+  border-left: 4px red;
+  color: black;
+}
+
+ul.nav-pills {
+  right: 20px;
+  position: fixed;
+  color: black;
+}
 
 .scroll-up {
   position: -webkit-sticky;
@@ -40,8 +67,47 @@ button {
   background-color: #5d0c1d;
 }
 
+button.stick {
+  position: fixed;
+  top: 0;
+  /* margin:60px 0 0 */
+}
+
 .fa-arrow-alt-circle-up {
   color: white;
   font-size: 2.5em;
   background-color: #5d0c1d;
+}
+
+.tableOfContentContainer {
+  padding-top: 2%;
+  padding-left: 90.5%;
+  position: fixed;
+}
+
+.docs-toc-container {
+  border-left: 4px solid #5d0c1d;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 400 !important;
+}
+
+button:hover {
+  color: #5d0c1d;
+}
+
+.tableOfContent {
+  position: static;
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.ytLoader {
+  width: 500px;
+  height: 281px;
 }
