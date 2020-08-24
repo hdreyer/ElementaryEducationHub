@@ -19,7 +19,7 @@
         <a routerLink="" routerLinkActive="active">Home</a>
         <div class="subnav">
             <button class="subnavbtn">Resources By Grade </button>
-            <div class="subnav-content">
+            <div id="subnav-content" class="subnav-content">
                 <a routerLink="/kindergarten">Kindergarten</a>
                 <a routerLink="/firstgrade">First Grade</a>
                 <a routerLink="/secondgrade">Second Grade</a>
@@ -30,13 +30,16 @@
         </div>
         <div class="subnav">
             <button class="subnavbtn">Resources by Subject </button>
-            <div class="subnav-content">
-                <a routerLink="/reading">Reading</a>
-                <a routerLink="/spelling">Spelling</a>
-                <a routerLink="/writing">Writing</a>
+            <div id="subnav-content" class="subnav-content">
                 <a routerLink="/math">Math</a>
-                <a routerLink="/science">Science</a>
+                <a routerLink="/reading">Reading</a>
+                <!-- Spelling component routing for Phase 2 add-on -->
+                <!-- <a routerLink="/spelling">Spelling</a> -->
+                <!-- Writing Component routing for Phase 2 add-on -->
+                <!-- <a routerLink="/writing">Writing</a> -->
                 <a routerLink="/history">History</a>
+                <a routerLink="/science">Science</a>
+
                 <a routerLink="/art">Art</a>
             </div>
         </div>

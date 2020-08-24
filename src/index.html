@@ -24,12 +24,39 @@
   <script src="https://kit.fontawesome.com/a8e2785994.js" crossorigin="anonymous"></script>
 
   <script>
+    $(document).ready(function () {
+      $('.subnav').hover(function () {
+        $('.subnav-content', this).addClass('hover-state');
+      }, function () {
+        $('.subnav-content', this).removeClass('hover-state');
+      });
+
+      $(".subnav-content").click(function () {
+        $(this).removeClass('hover-state');
+
+      });
+    });
+  </script>
+
+  <!-- Attempted script for faster youtube load times -->
+  <!-- <script>
     function youTubes_makeDynamic() {
       var $ytIframes = $('iframe[src*="youtube.com"]');
-      $ytIframes.each(function (i, e) {
+      [$ytIframes[0]].each(function (i, e) {
+  
         var $ytFrame = $(e);
-        var ytKey; var tmp = $ytFrame.attr('src').split(/\//); tmp = tmp[tmp.length - 1]; tmp = tmp.split('?'); ytKey = tmp[0];
+
+
+        var ytKey;
+        var tmp = $ytFrame.attr('src').split(/\//);
+        tmp = tmp[tmp.length - 1];
+        tmp = tmp.split('?');
+        ytKey = tmp[0];
+
+   
+
         var $ytLoader = $('<div class="ytLoader">');
+
         $ytLoader.append($('<img class="cover" src="https://i.ytimg.com/vi/' + ytKey + '/hqdefault.jpg">'));
         $ytLoader.append($('<img class="playBtn" src="play_button.png">'));
         $ytLoader.data('$ytFrame', $ytFrame);
@@ -42,7 +69,7 @@
       });
     };
     $(document).ready(function () { youTubes_makeDynamic() });
-  </script>
+  </script> -->
 
 
   <!-- Two CSS style sheet links for slick slider on homepage  -->
