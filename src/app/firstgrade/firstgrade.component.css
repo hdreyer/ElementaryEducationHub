@@ -42,12 +42,6 @@ h3 {
   text-decoration: underline;
 }
 
-.col-sm-3 {
-  align-self: right;
-  border-left: 4px red;
-  color: black;
-}
-
 ul.nav-pills {
   right: 20px;
   position: fixed;

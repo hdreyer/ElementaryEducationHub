@@ -16,22 +16,11 @@ export class ReadingComponent implements OnInit {
     } else {
       this.scrolled = 0;
     }
-    // console.log($event, "Page Y-axis offset by:" + window.pageYOffset);
   }
 
   goToTop() {
     window.scrollTo(0, 0);
   }
-
-  // scroll() {
-  //   document
-  //     .querySelector("#target")
-  //     .scrollIntoView({ behavior: "smooth", block: "center" });
-  // }
-
-  // scroll(el: HTMLElement) {
-  //   el.scrollIntoView();
-  // }
 
   constructor() {}
 

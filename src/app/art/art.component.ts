@@ -16,7 +16,6 @@ export class ArtComponent implements OnInit {
     } else {
       this.scrolled = 0;
     }
-    // console.log($event, "Page Y-axis offset by:" + window.pageYOffset);
   }
 
   goToTop() {

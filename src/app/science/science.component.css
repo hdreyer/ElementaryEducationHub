@@ -64,7 +64,6 @@ button {
 button.stick {
   position: fixed;
   top: 0;
-  /* margin:60px 0 0 */
 }
 
 .fa-arrow-alt-circle-up {
@@ -98,9 +97,4 @@ button:hover {
   position: static;
   padding: 5px 0 10px 10px;
   font-size: 13px;
-}
-
-.ytLoader {
-  width: 500px;
-  height: 281px;
 }

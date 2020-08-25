@@ -1,11 +1,8 @@
 header {
   width: 100%;
   height: 7em;
-  /* border: 4px solid black; */
   border-top: 4px solid black;
   background-color: #5d0c1d;
-  /* background-image: url(../../assets/Screen\ Shot\ 2020-07-08\ at\ 12.59.40\ PM.png);
-  background-size: cover; */
 }
 
 .flex-container {
@@ -13,37 +10,8 @@ header {
   justify-content: center;
 }
 
-/* header img {
-  height: 13vh;
-} */
-
-/* tagline {
-  background-image: url(../../assets/board-bright-design-fabric-235994.jpg);
-  background-size: cover;
-} */
-
-/* h1 {
-  display: flex;
-  text-decoration: underline;
-  justify-content: center;
-  padding-top: 2.5%;
-}
-
-/* i {
-  display: flex;
-  justify-content: center;
-} */
-
-/* .logoImage {
-  width: 300px;
-  margin-left: -5px;
-  margin-right: 5px;
-  justify-self: left;
-} */
-
 /* The navigation menu */
 .navbar {
-  /* overflow: hidden; */
   background-color: #333;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
@@ -89,14 +57,10 @@ header {
 /* Style the subnav content */
 .subnav-content {
   display: none;
-  /* position: inherit; */
   overflow: hidden;
   margin-left: 0px;
-  /* justify-content: space-evenly; */
   background-color: #d6d6d6;
   color: black;
-  /* width: 20%; */
-  /* z-index: 1; */
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -120,16 +84,6 @@ header {
   color: #ffffff;
 }
 
-/* When you move the mouse over the subnav container, open the subnav content */
-/* .subnav:hover .subnav-content {
-  display: block;
-} */
-
 .hover-state {
   display: block;
 }
-
-/* .fa-caret-down {
-  float: right;
-  padding-right: 8px;
-} */

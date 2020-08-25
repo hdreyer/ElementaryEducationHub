@@ -42,12 +42,6 @@ h3 {
   text-decoration: underline;
 }
 
-.col-sm-3 {
-  align-self: right;
-  border-left: 4px red;
-  color: black;
-}
-
 ul.nav-pills {
   right: 20px;
   position: fixed;
@@ -98,9 +92,4 @@ button:hover {
   position: static;
   padding: 5px 0 10px 10px;
   font-size: 13px;
-}
-
-.ytLoader {
-  width: 500px;
-  height: 281px;
 }

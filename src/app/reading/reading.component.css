@@ -1,12 +1,6 @@
 .page-container {
-  /* margin: auto; */
   padding-top: 1em;
   padding-bottom: 3em;
-  /* padding-left: 8%;
-  padding-right: 8%; */
-  /* text-align: center; */
-  /* height: auto; */
-  /* width: 80%; */
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -19,11 +13,6 @@ iframe {
   padding-bottom: 2.5%;
 }
 
-/* iframe:nth-of-type(even) {
-  padding-left: -5em;
-  padding-right: 5em;
-} */
-
 .container {
   justify-self: center;
 }
@@ -35,15 +24,11 @@ iframe {
 .titlehr {
   border-top: 10px solid #333;
   width: 95%;
-  /* padding-top: 1%; */
-  /* padding-bottom: 1%; */
 }
 
 .normalhr {
   border-top: 10px solid #d6d6d6;
   width: 95%;
-  /* padding-top: 0.5%;
-  padding-bottom: 0.5%; */
 }
 
 .lesspadding {
@@ -54,24 +39,11 @@ iframe {
 
 h1 {
   text-decoration: underline;
-  /* padding-bottom: 1%; */
   padding-top: -2%;
 }
 
 h3 {
-  /* padding-bottom: 1%; */
   text-decoration: underline;
-}
-
-/* h5 { */
-/* position: fixed; */
-/* justify-self: center; */
-/* }
- */
-.col-sm-3 {
-  align-self: right;
-  border-left: 4px red;
-  color: black;
 }
 
 ul.nav-pills {
@@ -125,23 +97,3 @@ button:hover {
   padding: 5px 0 10px 10px;
   font-size: 13px;
 }
-
-.ytLoader {
-  width: 500px;
-  height: 281px;
-}
-
-/* button {
-  background: none !important;
-  border: none;
-  padding: 0 !important; */
-/*optional*/
-/* font-family: arial, sans-serif; */
-/*input has OS specific font-family*/
-/* color: #069; */
-/* text-decoration: underline; */
-/* cursor: pointer; */
-/* text-decoration: none;
-  color: #737373;
-  font-weight: 400 !important; */
-/* } */
