@@ -16,7 +16,7 @@ export class ReadingComponent implements OnInit {
     } else {
       this.scrolled = 0;
     }
-    console.log($event, "Page Y-axis offset by:" + window.pageYOffset);
+    // console.log($event, "Page Y-axis offset by:" + window.pageYOffset);
   }
 
   goToTop() {
