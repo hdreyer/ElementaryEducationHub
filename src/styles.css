@@ -2,6 +2,22 @@
 
 body {
   background-color: #d6d6d6;
+  /* position: relative; */
   /* background-image: url(../src/assets/board-bright-design-fabric-235994.jpg);
   background-size: cover; */
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  z-index: 1;
 }
