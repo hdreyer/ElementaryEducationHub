@@ -1,11 +1,10 @@
 .main {
   margin: auto;
   padding-top: 5em;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
   padding-left: 8%;
   padding-right: 8%;
   text-align: center;
-  height: auto;
   width: 80%;
   background-color: #ffffff;
   border-left: 4px solid black;
@@ -25,7 +24,7 @@
 
 ng-image-slider {
   padding-top: 2%;
-  padding-bottom: 40%;
+  padding-bottom: 4%;
 }
 
 .teacherFavorites {
@@ -47,13 +46,7 @@ ng-image-slider {
   margin-top: 7%;
 }
 
-go-top-button {
-  padding: 5px;
-  border: 4px black;
-  float: right;
-  margin-right: 1.15em;
-  position: relative;
-  right: 8em;
-  bottom: 6em;
-  z-index: 999;
+.response {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
