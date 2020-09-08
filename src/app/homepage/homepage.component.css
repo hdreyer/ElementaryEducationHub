@@ -1,0 +1,52 @@
+.main {
+  margin: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  width: 80%;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+}
+
+.float-container {
+  border: 3px solid #fff;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 5%;
+}
+
+ng-image-slider {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.teacherFavorites {
+  padding-bottom: 2.5%;
+}
+
+.mainhr {
+  border-top: 10px solid #d6d6d6;
+  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+.sliderhr {
+  border-top: 10px solid #d6d6d6;
+  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 7%;
+}
+
+.response {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}

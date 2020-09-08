@@ -1,0 +1,24 @@
+.page-container {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  width: 80%;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+  position: relative;
+}
+
+.titlehr {
+  border-top: 10px solid #333;
+  width: 95%;
+}
+
+#firstp {
+  text-align: center;
+  padding-top: 2em;
+}
+
+#secondp {
+  text-align: center;
+}

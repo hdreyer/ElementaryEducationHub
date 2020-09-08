@@ -1,0 +1,193 @@
+.page-container {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+  position: relative;
+}
+
+iframe {
+  padding: 2%;
+  margin: auto;
+}
+
+.title {
+  justify-self: center;
+}
+
+.titlehr {
+  border-top: 10px solid #333;
+  width: 95%;
+}
+
+.normalhr {
+  border-top: 10px solid #d6d6d6;
+  width: 95%;
+}
+
+.lesspadding {
+  border-top: 5px solid #d6d6d6;
+  width: 95%;
+  padding: 0%;
+}
+
+h1 {
+  text-decoration: underline;
+  padding-top: -2%;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ul.nav-pills {
+  right: 20px;
+  position: fixed;
+  color: black;
+}
+
+.scroll-up {
+  position: -webkit-sticky;
+  position: fixed;
+  z-index: 2;
+  top: 85%;
+  left: 92%;
+  color: gray;
+}
+/* 
+button {
+  background-color: #5d0c1d;
+} */
+
+/* .fa-arrow-alt-circle-up {
+  color: white;
+  font-size: 2.5em;
+  background-color: #5d0c1d;
+} */
+
+.tableOfContentContainer {
+  padding-top: 2%;
+  padding-left: 91%;
+  position: fixed;
+  display: none;
+}
+
+.docs-toc-container {
+  border-left: 4px solid #5d0c1d;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 400 !important;
+}
+/* 
+button:hover {
+  color: #5d0c1d;
+} */
+
+.tableOfContent {
+  position: static;
+  padding: 5px 0 10px 10px;
+  font-size: 13px;
+}
+
+/* Can't get container size to adjust - tried on large display queries */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  page-container {
+    width: 98%;
+  }
+
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  page-container {
+    width: 98%;
+  }
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .page-container {
+    width: 83%;
+  }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 90.5%;
+  }
+
+  page-container {
+    width: 85%;
+  }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 91%;
+  }
+
+  page-container {
+    width: 90%;
+  }
+} */
+
+/* Extra extra large devices (laptop and desktops, 1366px and up) */
+/* @media only screen and (min-width: 1366px) {
+  .tableOfContentContainer {
+    display: block;
+  }
+
+  page-container {
+    width: 90%;
+  }
+} */
+
+/* 13″ MacBook Pro (1.5x scaling) */
+/* @media only screen and (min-width: 1680px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 85%;
+  }
+
+  page-container {
+    width: 90%;
+  }
+} */
+
+/* 1080p desktop displays */
+/* @media only screen and (min-width: 1920px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 85%;
+  }
+
+  page-container {
+    width: 90%;
+  }
+} */

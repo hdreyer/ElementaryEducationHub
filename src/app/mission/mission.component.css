@@ -1,0 +1,28 @@
+.page-container {
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+}
+
+.titlehr {
+  border-top: 10px solid #333;
+  width: 95%;
+}
+
+.lesspadding {
+  border-top: 5px solid #d6d6d6;
+  width: 95%;
+  padding: 0%;
+}
+
+p {
+  margin: auto;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
