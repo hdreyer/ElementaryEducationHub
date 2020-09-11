@@ -1,10 +1,7 @@
 <div class="scroll-up">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 col-lg-12">
-                <button (click)="goToTop()" id="button" *ngIf="scrolled == 1"><i class="far fa-arrow-alt-circle-up"></i>
-                </button>
-            </div>
+        <div class="col-12 col-md-12 col-lg-12">
+            <i class="fas fa-arrow-alt-circle-up" (click)="goToTop()" id="button" *ngIf="scrolled == 1"></i>
         </div>
     </div>
 </div>
@@ -395,7 +392,7 @@
                     allowfullscreen></iframe>
             </div>
 
-            <div clas="col-12 col-md-12 col-lg-6">
+            <div class="embed-responsive embed-responsive-16by9  col-12 col-md-12 col-lg-6">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5xE-vw2ctqo" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
