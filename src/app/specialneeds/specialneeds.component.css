@@ -50,13 +50,16 @@ ul.nav-pills {
   color: black;
 }
 
-.scroll-up {
+#button {
   position: -webkit-sticky;
   position: fixed;
   z-index: 2;
   top: 85%;
-  left: 92%;
+  left: 93%;
   color: #5d0c1d;
+  opacity: 0.5;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 button {
@@ -66,12 +69,6 @@ button {
 button.stick {
   position: fixed;
   top: 0;
-}
-
-.fa-arrow-alt-circle-up {
-  color: white;
-  font-size: 2.5em;
-  background-color: #5d0c1d;
 }
 
 .tableOfContentContainer {

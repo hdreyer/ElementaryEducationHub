@@ -1,9 +1,15 @@
 header {
   width: 100%;
   height: 7em;
+  padding-top: 0.3em;
   border-top: 4px solid black;
   background-color: #5d0c1d;
 }
+
+/* img {
+  width: 406px;
+  height: 104px;
+} */
 
 .flex-container {
   display: flex;
@@ -12,6 +18,7 @@ header {
 
 /* The navigation menu */
 .navbar {
+  /* overflow: hidden; */
   background-color: #333;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
@@ -29,6 +36,12 @@ header {
   text-decoration: none;
   z-index: 999;
 }
+
+/* a,
+button {
+  list-style-type: none;
+  display: none;
+} */
 
 /* The subnavigation menu */
 .subnav {
@@ -87,3 +100,20 @@ header {
 .hover-state {
   display: block;
 }
+
+/* .navbar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+fa-bars {
+  color: #d6d6d6;
+  justify-self: center;
+} */

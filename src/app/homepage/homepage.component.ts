@@ -27,5 +27,13 @@ export class HomepageComponent implements OnInit {
       video: "https://www.youtube.com/embed/xUCYFof8QyA",
       title: "Force and Motion",
     },
+    {
+      video: "https://www.youtube.com/embed/UgfSwlqi4Qg",
+      title: "Types of Angles",
+    },
+    {
+      video: "https://www.youtube.com/embed/DR9w4koW2EA",
+      title: "Magnetism",
+    },
   ];
 }

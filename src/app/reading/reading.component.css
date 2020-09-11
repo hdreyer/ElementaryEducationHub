@@ -52,29 +52,25 @@ ul.nav-pills {
   color: black;
 }
 
-.scroll-up {
+#button {
   position: -webkit-sticky;
   position: fixed;
   z-index: 2;
   top: 85%;
-  left: 92%;
+  left: 93%;
   color: #5d0c1d;
-}
-
-button {
-  background-color: #5d0c1d;
-}
-
-.fa-arrow-alt-circle-up {
-  color: white;
-  font-size: 2.5em;
-  background-color: #5d0c1d;
+  opacity: 0.5;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 .tableOfContentContainer {
-  padding-top: 2%;
-  padding-left: 90.5%;
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10%;
+  height: 0;
+  padding-left: 91%;
+  /* display: none; */
 }
 
 .docs-toc-container {
@@ -88,12 +84,12 @@ a {
   font-weight: 400 !important;
 }
 
-button:hover {
+a:hover {
   color: #5d0c1d;
 }
 
 .tableOfContent {
   position: static;
-  padding: 5px 0 10px 10px;
+  padding: 5px 0px 8px 10px;
   font-size: 13px;
 }
