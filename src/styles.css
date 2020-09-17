@@ -2,14 +2,6 @@
 
 body {
   background-color: #d6d6d6;
-  /* position: relative; */
-  /* background-image: url(../src/assets/board-bright-design-fabric-235994.jpg);
-  background-size: cover; */
-}
-
-iframe {
-  margin: 0 auto;
-  display: block;
 }
 
 h1,
@@ -20,4 +12,232 @@ h5,
 h6 {
   text-align: center;
   z-index: 1;
+}
+
+/* Can't get container size to adjust - tried on large display queries */
+
+/* iPhone SE */
+@media only screen and (max-width: 321px) {
+  header {
+    height: 2.5em;
+    padding-top: 0.5em;
+  }
+
+  .page-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .forLargeScreens {
+    display: none;
+  }
+
+  .forSmallScreens {
+    display: contents;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page-container {
+    width: 100%;
+    margin-left: -30px;
+    margin-right: -30px;
+    border: none;
+  }
+
+  header {
+    height: 5em;
+    object-fit: contain;
+    justify-content: center;
+    align-content: center;
+  }
+
+  img {
+    padding-top: 0.4em;
+    max-width: 90vw;
+    /* height: auto; */
+    align-self: center;
+  }
+
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  .forLargeScreens {
+    display: none;
+  }
+
+  /* Changing .main to 100% works when doing it through inspect element -doesn't work in queries though */
+  .main {
+    width: 100%;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  }
+
+  .float-container {
+    display: block;
+  }
+
+  h1 {
+    font-size: 6.5vw;
+  }
+
+  ng-image-slider {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  .responsetext {
+    font-size: 4vw;
+  }
+
+  .paraone,
+  .paratwo {
+    font-size: 3vw;
+  }
+
+  .text-center {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 800px) {
+  .page-container {
+    width: 100%;
+  }
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .text-center {
+    display: none;
+  }
+
+  .forLargeScreens {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 801px to 991px) */
+@media only screen and (max-width: 991px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 90.5%;
+  }
+
+  .page-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 90.5%;
+  }
+
+  .page-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
+
+  footer {
+    width: 90%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 91%;
+  }
+
+  .page-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
+
+  footer {
+    max-width: 90%;
+  }
+}
+
+/* Extra extra large devices (laptop and desktops, 1366px and up) */
+@media only screen and (min-width: 1366px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 87%;
+  }
+
+  .page-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
+
+  footer {
+    max-width: 90%;
+  }
+}
+
+/* 13″ MacBook Pro (1.5x scaling) */
+@media only screen and (min-width: 1680px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 85%;
+  }
+
+  .page-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
+}
+
+/* 1080p desktop displays */
+@media only screen and (min-width: 1920px) {
+  .tableOfContentContainer {
+    display: block;
+    padding-left: 85%;
+  }
+
+  .page-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .forSmallScreens {
+    display: none;
+  }
 }

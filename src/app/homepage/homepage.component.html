@@ -23,9 +23,55 @@
         <section>
             <div>
                 <h1 class="teacherFavorites"> Teacher Favorites: </h1>
-                <ng-image-slider #nav [images]="imageObject" [infinite]="true"
-                    [autoSlide]="{interval: 1, stopOnHover: true}" [showVideoControls]="true" [imagePopup]="true"
-                    [videoAutoPlay]="true" [imageSize]="{width: '50%', height: '40%'}" slideImage="1"></ng-image-slider>
+                <div class="forLargeScreens">
+                    <ng-image-slider #nav [images]="imageObject" [infinite]="true"
+                        [autoSlide]="{interval: 1, stopOnHover: true}" [showVideoControls]="true" [imagePopup]="true"
+                        [videoAutoPlay]="true" [imageSize]="{width: '50%', height: '40%'}" slideImage="1">
+                    </ng-image-slider>
+                </div>
+                <div class="forSmallScreens">
+                    <div class="container">
+                        <div class="row">
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NpWHZJZQDSE"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyMrLQ4ZI-4"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EzzQ8x-9HTo"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xUCYFof8QyA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UgfSwlqi4Qg"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DR9w4koW2EA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <hr class="sliderhr" />
         </section>
