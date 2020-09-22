@@ -1,88 +1,107 @@
-<div class="page-container">
-    <div class="main">
-        <section>
-            <h1 class="float-container"> Welcome to the Elementary Education Hub!</h1>
-            <div class="float-child">
-                <p class="paraone"> Here you'll find a comprehensive source of free educational videos and more to
-                    assist you in
-                    teaching
-                    your
-                    students or childen. All of the videos are free, student-focused, and highly engaging. </p>
-            </div>
-            <div class="float-child">
-                <p class="paratwo"> Whether you are a parent or a teacher, our desire is to support you by providing
-                    high quality,
-                    engaging, and safe videos for your student or child. Get started by choosing a grade level or
-                    subject
-                    above!
-                </p>
-            </div>
-        </section>
-        <hr class="mainhr" />
+<div class="d-flex bd-highlight">
+    <div class="bd-highlight d-none d-sm-none d-md-flex d-lg-flex d-xl-flex gutter" style="width: 115px"></div>
+    <div class="flex-grow-1 bd-highlight">
 
-        <section>
-            <div>
-                <h1 class="teacherFavorites"> Teacher Favorites: </h1>
-                <div class="forLargeScreens">
-                    <ng-image-slider #nav [images]="imageObject" [infinite]="true"
-                        [autoSlide]="{interval: 1, stopOnHover: true}" [showVideoControls]="true" [imagePopup]="true"
-                        [videoAutoPlay]="true" [imageSize]="{width: '50%', height: '40%'}" slideImage="1">
-                    </ng-image-slider>
-                </div>
-                <div class="forSmallScreens">
+        <div class="container-fluid page-container">
+            <div class="main">
+                <section class="intro">
+                    <h3 class="welcome"> Welcome to the Elementary Education Hub!</h3>
+                    <hr class="introhr" />
                     <div class="container">
                         <div class="row">
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NpWHZJZQDSE"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <p> Here you'll find a comprehensive source of free educational videos and more to
+                                    assist you in
+                                    teaching
+                                    your
+                                    students or childen. All of the videos are free, student-focused, and highly
+                                    engaging.
+                                </p>
                             </div>
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyMrLQ4ZI-4"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <p> Whether you are a parent or a teacher, our desire is to support you by
+                                    providing high quality, engaging, and safe videos for your student or child. Get
+                                    started
+                                    by
+                                    choosing a grade level or subject above!
+                                </p>
                             </div>
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EzzQ8x-9HTo"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xUCYFof8QyA"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UgfSwlqi4Qg"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9 col-12 col-md-12 col-lg-6">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DR9w4koW2EA"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </div>
+
                         </div>
                     </div>
+                </section>
+                <hr class="mainhr" />
 
-                </div>
-            </div>
-            <hr class="sliderhr" />
-        </section>
+                <section>
+                    <div>
+                        <h3 class="teacherFavorites"> Teacher Favorites: </h3>
 
-        <section>
-            <div class="response">
-                <h4 class="responsetext"> Do you have educational videos that you would like shared on this site? Email
-                    us at
-                    example@example.com
-                    to share content. </h4>
+                        <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block" styles="">
+                            <ng-image-slider #nav [images]="imageObject" [infinite]="true"
+                                [autoSlide]="{interval: 1, stopOnHover: true}" [showVideoControls]="true"
+                                [imagePopup]="true" [videoAutoPlay]="true" [manageImageRatio]="true" slideImage="1">
+                            </ng-image-slider>
+                        </div>
+
+                        <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/NpWHZJZQDSE" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/xyMrLQ4ZI-4" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/EzzQ8x-9HTo" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/xUCYFof8QyA" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/UgfSwlqi4Qg" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-6 col-lg-6">
+                                        <iframe class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/DR9w4koW2EA" frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr class="sliderhr" />
+                </section>
+
+                <section>
+                    <div class="response">
+                        <p class="responsetext"> Do you have educational videos that you would like shared on this site?
+                            Email
+                            us at
+                            example@example.com
+                            to share content. </p>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
+
     </div>
+    <div class="bd-highlight d-none d-sm-none d-md-flex d-lg-flex d-xl-flex gutter" style="width: 115px"></div>
 </div>

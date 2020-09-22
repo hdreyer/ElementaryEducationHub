@@ -1,7 +1,7 @@
-.main {
+.page-container {
   margin: auto;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 4%;
+  padding-bottom: 5%;
   padding-left: 8%;
   padding-right: 8%;
   text-align: center;
@@ -11,15 +11,49 @@
   border-right: 4px solid black;
   z-index: 1;
 }
+/* .main {
+  margin: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  background-color: #ffffff;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  z-index: 1;
+} */
 
-.float-container {
+.welcome {
   border: 3px solid #fff;
+  padding-bottom: 3%;
 }
 
-.float-child {
-  width: 50%;
-  float: left;
-  padding: 5%;
+.intro {
+  padding-bottom: 2%;
+}
+
+/* .info-container {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+} */
+/* 
+.info {
+  display: inline-flex;
+  justify-content: center;
+} */
+
+/* .paraone {
+  padding-right: 2.5%;
+}
+
+.paratwo {
+  padding-left: 2.5%;
+} */
+
+.teacherFavorites {
+  padding-bottom: 2.5%;
 }
 
 ng-image-slider {
@@ -27,26 +61,54 @@ ng-image-slider {
   padding-bottom: 4%;
 }
 
-.teacherFavorites {
-  padding-bottom: 2.5%;
+iframe {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.introhr {
+  border-top: 10px solid #d6d6d6;
+  width: 90%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* padding-bottom: 0%; */
 }
 
 .mainhr {
   border-top: 10px solid #d6d6d6;
   width: 90%;
-  padding-top: 2%;
-  padding-bottom: 0%;
+  padding-top: 1%;
+  /* padding-bottom: 0%; */
 }
 
 .sliderhr {
   border-top: 10px solid #d6d6d6;
   width: 90%;
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   margin-top: 7%;
+}
+
+iframe {
+  padding: 2%;
+  margin: auto;
 }
 
 .response {
   padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  /* padding-bottom: 0.5%; */
+}
+
+.gutter {
+  flex-basis: 115px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+/* Small portrait mode devices */
+@media only screen and (max-width: 500px) {
+  h3 {
+    /* font-weight: 30%; */
+    /* font-size: 2.5em; */
+    padding-top: 3%;
+  }
 }

@@ -1,6 +1,12 @@
+/* .main {
+  padding-left: 0px;
+  padding-right: 0px;
+} */
+
 .page-container {
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  margin: auto;
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -37,12 +43,16 @@ iframe {
   padding: 0%;
 }
 
-h1 {
+h3 {
   text-decoration: underline;
   padding-top: -2%;
 }
 
-h3 {
+h5 {
+  text-align: center;
+}
+
+.category {
   text-decoration: underline;
 }
 
@@ -52,14 +62,14 @@ ul.nav-pills {
   color: black;
 }
 
-#button {
+.scroll-up {
   position: -webkit-sticky;
   position: fixed;
+  bottom: 10%;
+  right: 4%;
+  height: auto;
   z-index: 2;
-  top: 85%;
-  left: 93%;
   color: #5d0c1d;
-  opacity: 0.5;
   font-size: 40px;
   cursor: pointer;
 }
@@ -67,10 +77,9 @@ ul.nav-pills {
 .tableOfContentContainer {
   position: -webkit-sticky; /* Safari */
   position: sticky;
+  align-self: flex-start;
+  justify-content: flex-start;
   top: 10%;
-  height: 0;
-  padding-left: 91%;
-  /* display: none; */
 }
 
 .docs-toc-container {
@@ -93,3 +102,25 @@ a:hover {
   padding: 5px 0px 8px 10px;
   font-size: 13px;
 }
+
+/* @media only screen and (min-width: 992px) {
+  p {
+    font-size: 1.75;
+  }
+} */
+
+/* Small phone devices (phones, 750px and down) */
+/* @media only screen and (max-width: 750px) {
+  header {
+    height: 5em;
+    object-fit: contain;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .container-fluid {
+    box-sizing: border-box;
+    border-left: 0px;
+    border-right: 0px;
+  }
+} */

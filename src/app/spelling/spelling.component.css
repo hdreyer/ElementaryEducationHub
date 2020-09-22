@@ -1,7 +1,8 @@
 .page-container {
   /* margin: auto; */
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  margin: auto;
   /* padding-left: 8%;
   padding-right: 8%; */
   /* text-align: center; */
@@ -31,10 +32,8 @@
   position: -webkit-sticky;
   position: fixed;
   z-index: 2;
-  top: 85%;
-  left: 93%;
   color: #5d0c1d;
-  opacity: 0.5;
+
   font-size: 40px;
   cursor: pointer;
 }
