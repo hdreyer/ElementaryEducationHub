@@ -1,6 +1,8 @@
 .page-container {
   padding-top: 1em;
   padding-bottom: 3em;
+  margin: auto;
+  flex-flow: wrap;
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -25,4 +27,10 @@ p {
   text-align: center;
   padding-left: 8%;
   padding-right: 8%;
+}
+
+.gutter {
+  flex-basis: 115px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }

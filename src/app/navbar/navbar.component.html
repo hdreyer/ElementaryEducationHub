@@ -6,37 +6,65 @@
     </div>
 </header>
 
-<nav>
-    <!-- The navigation menu -->
-    <div class="navbar">
-        <a routerLink="" routerLinkActive="active">Home</a>
-        <div class="subnav">
-            <button class="subnavbtn">Resources By Grade </button>
-            <div id="subnav-content" class="subnav-content">
-                <a routerLink="/kindergarten">Kindergarten</a>
-                <a routerLink="/firstgrade">First Grade</a>
-                <a routerLink="/secondgrade">Second Grade</a>
-                <a routerLink="/thirdgrade">Third Grade</a>
-                <a routerLink="/fourthgrade">Fourth Grade</a>
-                <a routerLink="/fifthgrade">Fifth Grade</a>
-            </div>
-        </div>
-        <div class="subnav">
-            <button class="subnavbtn">Resources by Subject </button>
-            <div id="subnav-content" class="subnav-content">
-                <a routerLink="/math">Math</a>
-                <a routerLink="/reading">Reading</a>
-                <!-- Spelling component routing for Phase 2 add-on -->
-                <!-- <a routerLink="/spelling">Spelling</a> -->
-                <!-- Writing Component routing for Phase 2 add-on -->
-                <!-- <a routerLink="/writing">Writing</a> -->
-                <a routerLink="/history">Social Studies</a>
-                <a routerLink="/science">Science</a>
+<!-- The navigation menu -->
+<nav class="navbar navbar-expand-md navbar-dark">
+    <!-- <div class="d-flex justify-content-around"> -->
+    <!-- <div class="navbar" id="topNav"></div> -->
 
-                <a routerLink="/art">Art</a>
-            </div>
-        </div>
-        <a routerLink="/specialneeds">Special Education Resources</a>
-        <a routerLink="/mission">Our Mission</a>
+    <button routerLink="" class="d-inline-block  d-md-none">
+        <span><i class="fa fa-home" aria-hidden="true"></i></span>
+    </button>
+
+    <!-- Toggler/collapsible Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span><i class="fa fa-bars"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav" style="width: 100%; justify-content: space-around;">
+            <li class="nav-item d-none d-md-inline-block home">
+                <a routerLink="" routerLinkActive="active" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle" data-toggle="dropdown">Resources
+                    By Grade </button>
+                <ul class="dropdown-menu">
+                    <li> <a routerLink="/kindergarten" class="dropdown-item">Kindergarten</a></li>
+                    <li><a routerLink="/firstgrade" class="dropdown-item">First Grade</a></li>
+                    <li><a routerLink="/secondgrade" class="dropdown-item">Second Grade</a></li>
+                    <li><a routerLink="/thirdgrade" class="dropdown-item">Third Grade</a></li>
+                    <li><a routerLink="/fourthgrade" class="dropdown-item">Fourth Grade</a></li>
+                    <li><a routerLink="/fifthgrade" class="dropdown-item">Fifth Grade</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle" data-toggle="dropdown">Resources
+                    by Subject </button>
+                <ul class="dropdown-menu">
+                    <li> <a routerLink="/math" class="dropdown-item">Math</a></li>
+                    <li> <a routerLink="/reading" class="dropdown-item">Reading</a></li>
+                    <li> <a routerLink="/history" class="dropdown-item">Social Studies</a></li>
+                    <li> <a routerLink="/science" class="dropdown-item">Science</a></li>
+                    <li> <a routerLink="/art" class="dropdown-item">Art</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a routerLink="/specialneeds" class="sped nav-link" style="float: left">Special Education
+                    Resources</a>
+            </li>
+
+            <li>
+                <a routerLink="/mission" class="ourMission nav-link" style="float: left">Our Mission</a>
+            </li>
+        </ul>
     </div>
 </nav>
+
+
+<!-- <a href="javascript:void(0);" class="icon" ng-click="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> -->
+<!-- </div> -->
+<!-- </div> -->

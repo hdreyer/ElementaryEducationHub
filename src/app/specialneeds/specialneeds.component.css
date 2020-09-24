@@ -1,6 +1,7 @@
 .page-container {
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
+  margin: auto;
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -10,9 +11,19 @@
   overflow: hidden;
 }
 
-.float-child {
-  width: 50%;
-  padding-top: 3%;
+section {
+  display: inline-block;
+  /* padding: 1em; */
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+li {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .title {
@@ -35,12 +46,12 @@
   padding: 0%;
 }
 
-h1 {
+h3 {
   text-decoration: underline;
   padding-top: -2%;
 }
 
-h3 {
+h4 {
   text-decoration: underline;
 }
 
@@ -54,10 +65,8 @@ ul.nav-pills {
   position: -webkit-sticky;
   position: fixed;
   z-index: 2;
-  top: 85%;
-  left: 93%;
   color: #5d0c1d;
-  opacity: 0.5;
+
   font-size: 40px;
   cursor: pointer;
 }
@@ -95,4 +104,10 @@ button:hover {
   position: static;
   padding: 5px 0 10px 10px;
   font-size: 13px;
+}
+
+.gutter {
+  flex-basis: 115px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }

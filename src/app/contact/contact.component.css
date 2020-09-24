@@ -1,7 +1,9 @@
 .page-container {
   padding-top: 1em;
-  padding-bottom: 3em;
-  width: 80%;
+  padding-bottom: 1em;
+  /* width: 80%; */
+  margin: auto;
+  min-height: 55vh;
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -14,11 +16,18 @@
   width: 95%;
 }
 
-#firstp {
+.firstp {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 15vh;
 }
 
-#secondp {
+.secondp {
   text-align: center;
+  padding-top: 0.5em;
+}
+
+.thirdp {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 15vh;
 }

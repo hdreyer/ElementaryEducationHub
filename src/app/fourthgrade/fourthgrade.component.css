@@ -1,6 +1,7 @@
 .page-container {
   padding-top: 1em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  margin: auto;
   background-color: #ffffff;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -33,12 +34,12 @@ iframe {
   padding: 0%;
 }
 
-h1 {
+h3 {
   text-decoration: underline;
   padding-top: -2%;
 }
 
-h3 {
+h4 {
   text-decoration: underline;
 }
 
@@ -48,29 +49,24 @@ ul.nav-pills {
   color: black;
 }
 
-#button {
+.scroll-up {
   position: -webkit-sticky;
   position: fixed;
+  bottom: 10%;
+  right: 4%;
+  height: auto;
   z-index: 2;
-  top: 85%;
-  left: 93%;
   color: #5d0c1d;
-  opacity: 0.5;
   font-size: 40px;
   cursor: pointer;
-}
-
-button {
-  background-color: #5d0c1d;
 }
 
 .tableOfContentContainer {
   position: -webkit-sticky; /* Safari */
   position: sticky;
+  align-self: flex-start;
+  justify-content: flex-start;
   top: 10%;
-  height: 0;
-  padding-left: 91%;
-  /* display: none; */
 }
 
 .docs-toc-container {

@@ -1,23 +1,245 @@
 /* Before release, move each page's basic shared layout CSS to here */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
 
 body {
   background-color: #d6d6d6;
-  /* position: relative; */
-  /* background-image: url(../src/assets/board-bright-design-fabric-235994.jpg);
-  background-size: cover; */
 }
 
-iframe {
-  margin: 0 auto;
-  display: block;
-}
-
-h1,
-h2,
 h3,
+h2,
+h4,
 h4,
 h5,
 h6 {
   text-align: center;
   z-index: 1;
+}
+
+/* iPhone SE */
+@media only screen and (max-width: 321px) {
+  header {
+    height: 2.5em;
+    padding-top: 0.5em;
+  }
+
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  .main {
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  /* h3,
+  h4,
+  h5 {
+    font-size: 85%;
+  }
+
+  p {
+    font-size: 85%;
+  } */
+
+  .text-center {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 87%; */
+    opacity: 0.9;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 322px) and (max-width: 600px) {
+  header {
+    height: 5em;
+    object-fit: contain;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .main {
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  img {
+    padding-top: 0.4em;
+    max-width: 90vw;
+    /* height: auto; */
+    align-self: center;
+  }
+
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 87%; */
+    opacity: 0.9;
+  }
+
+  .float-container {
+    display: block;
+  }
+
+  /* h3,
+  h4,
+  h5 {
+    font-size: 85%;
+  }
+
+  p {
+    font-size: 85%;
+  } */
+
+  .text-center {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 700px) {
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 87%; */
+    opacity: 0.9;
+  }
+
+  .text-center {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 701px) and (max-width: 767px) {
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 90%; */
+    opacity: 0.9;
+  }
+
+  .text-center {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .tableOfContentContainer {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 90%; */
+    opacity: 0.9;
+  }
+
+  .text-center {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 801px to 991px) */
+@media only screen and (min-width: 801px) and (max-width: 991px) {
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 93%; */
+    opacity: 0.9;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 93%; */
+    opacity: 0.5;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+  /* .page-container {
+    padding-bottom: 3%;
+  } */
+
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 90%; */
+    opacity: 0.5;
+  }
+}
+
+/* Extra extra large devices (laptop and desktops, 1366px and up) */
+@media only screen and (min-width: 1366px) and (max-width: 1679px) {
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 90%; */
+    opacity: 0.5;
+  }
+}
+
+/* 13″ MacBook Pro (1.5x scaling) */
+@media only screen and (min-width: 1680px) and (max-width: 1850px) {
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 87%; */
+    opacity: 0.5;
+  }
+}
+
+@media only screen and (min-width: 1851px) and (max-width: 1919px) {
+  .navbar .icon {
+    display: none;
+  }
+}
+
+/* 1080p desktop displays */
+@media only screen and (min-width: 1920px) {
+  .navbar .icon {
+    display: none;
+  }
+
+  #button {
+    /* top: 87%;
+    left: 87%; */
+    opacity: 0.5;
+  }
 }
