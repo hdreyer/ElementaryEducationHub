@@ -4,7 +4,7 @@ import { HostListener } from "@angular/core";
 @Component({
   selector: "app-kindergarten",
   templateUrl: "./kindergarten.component.html",
-  styleUrls: ["./kindergarten.component.css"],
+  styleUrls: ["./kindergarten.component.scss"],
 })
 export class KindergartenComponent implements OnInit {
   scrolled = 0;

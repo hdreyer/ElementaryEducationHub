@@ -4,7 +4,7 @@ import { HostListener } from "@angular/core";
 @Component({
   selector: "app-science",
   templateUrl: "./science.component.html",
-  styleUrls: ["./science.component.css"],
+  styleUrls: ["./science.component.scss"],
 })
 export class ScienceComponent implements OnInit {
   scrolled = 0;
