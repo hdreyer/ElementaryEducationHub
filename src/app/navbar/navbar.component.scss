@@ -26,7 +26,6 @@ header {
 /* The navigation menu */
 .navbar-expand-md {
   /* overflow: hidden; */
-  background-color: #333;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   z-index: 999;
@@ -114,28 +113,6 @@ button:hover {
 .nav-item:hover .dropdown-toggle {
   background-color: #d6d6d6;
   color: black;
-}
-
-/* .navbar-toggler-icon {
-  border: 0px;
-} */
-
-.fa-bars {
-  color: #d6d6d6;
-  padding: 5px 10px;
-}
-
-.fa-home {
-  color: black;
-  font-size: 180%;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.fa-bars:hover {
-  background-color: #d6d6d6;
-  color: black;
-  border: 4px solid #d6d6d6;
 }
 
 /* Style the subnav content */
@@ -230,11 +207,7 @@ button:hover {
 .active {
   display: block;
 }
-
-fa-bars {
-  color: #d6d6d6;
-  justify-self: center;
-} */
+*/
 
 /* @media screen and (max-width: 576px) {
   .subnav-content .hover-state {
@@ -244,3 +217,7 @@ fa-bars {
     left: 10;
   }
 } */
+
+.navbar-toggler {
+  padding: 0.5rem 0.75rem;
+}
