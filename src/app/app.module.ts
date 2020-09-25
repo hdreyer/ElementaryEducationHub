@@ -28,6 +28,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgImageSliderModule } from "ng-image-slider";
 import { NgxPageScrollCoreModule } from "ngx-page-scroll-core";
 import { NgxPageScrollModule } from "ngx-page-scroll";
+import { YoutubeFrameComponent } from './youtube-frame/youtube-frame.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { NgxPageScrollModule } from "ngx-page-scroll";
     MissionComponent,
     FooterComponent,
     ContactComponent,
+    YoutubeFrameComponent,
   ],
   imports: [
     BrowserModule,
