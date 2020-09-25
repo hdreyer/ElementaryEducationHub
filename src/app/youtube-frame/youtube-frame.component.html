@@ -1,0 +1,29 @@
+<div class="embed-responsive embed-responsive-16by9" style="position: relative;" *ngIf="!showVideo">
+    <img class="cover" src="https://i.ytimg.com/vi/{{ src }}/hqdefault.jpg" (click)="loadVideo()">
+    <img class="playBtn" style="position: absolute; top: 100px; left: 100px; width: 100px;"
+        src="/assets/youtube-play.png">
+</div>
+
+<div class="embed-responsive embed-responsive-16by9" *ngIf="showVideo">
+    <iframe style="width: 480px; height: 270px;" class="embed-responsive-item" [src]="safeUrl" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-- smaller filesize? -->
+<!-- https://i.ytimg.com/vi/ZnZYK83utu0/sddefault.jpg -->
+
+
+
+
+
+<!-- 
+var $ytLoader = $('<div class="ytLoader">');
+
+$ytLoader.append($('<img class="cover" src="https://i.ytimg.com/vi/' + ytKey + '/hqdefault.jpg">'));
+$ytLoader.append($('<img class="playBtn" src="play_button.png">'));
+$ytLoader.data('$ytFrame', $ytFrame);
+$ytFrame.replaceWith($ytLoader);
+$ytLoader.click(function () {
+var $ytFrame = $ytLoader.data('$ytFrame');
+$ytFrame.attr('src', $ytFrame.attr('src') + '?autoplay=1');
+$ytLoader.replaceWith($ytFrame);
+}); -->
