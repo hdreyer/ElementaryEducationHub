@@ -4,7 +4,7 @@ import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 @Component({
   selector: "app-youtube-frame",
   templateUrl: "./youtube-frame.component.html",
-  styleUrls: ["./youtube-frame.component.css"],
+  styleUrls: ["./youtube-frame.component.scss"],
 })
 export class YoutubeFrameComponent implements OnInit {
   @Input() src: string;

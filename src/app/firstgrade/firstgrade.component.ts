@@ -4,7 +4,7 @@ import { HostListener } from "@angular/core";
 @Component({
   selector: "app-firstgrade",
   templateUrl: "./firstgrade.component.html",
-  styleUrls: ["./firstgrade.component.css"],
+  styleUrls: ["./firstgrade.component.scss"],
 })
 export class FirstgradeComponent implements OnInit {
   scrolled = 0;

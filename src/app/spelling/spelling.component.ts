@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-spelling',
-  templateUrl: './spelling.component.html',
-  styleUrls: ['./spelling.component.css']
+  selector: "app-spelling",
+  templateUrl: "./spelling.component.html",
+  styleUrls: ["./spelling.component.scss"],
 })
 export class SpellingComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

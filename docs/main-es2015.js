@@ -637,9 +637,9 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/app.component.css":
+/***/ "./src/app/app.component.scss":
 /*!***********************************!*\
-  !*** ./src/app/app.component.css ***!
+  !*** ./src/app/app.component.scss ***!
   \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -673,7 +673,7 @@ AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-root",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")).default]
     })
 ], AppComponent);
 
@@ -796,9 +796,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/art/art.component.css":
+/***/ "./src/app/art/art.component.scss":
 /*!***************************************!*\
-  !*** ./src/app/art/art.component.css ***!
+  !*** ./src/app/art/art.component.scss ***!
   \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -849,7 +849,7 @@ ArtComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-art",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./art.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/art/art.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./art.component.css */ "./src/app/art/art.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./art.component.scss */ "./src/app/art/art.component.scss")).default]
     })
 ], ArtComponent);
 
@@ -857,9 +857,9 @@ ArtComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/contact/contact.component.css":
+/***/ "./src/app/contact/contact.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/contact/contact.component.css ***!
+  !*** ./src/app/contact/contact.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -893,7 +893,7 @@ ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-contact',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contact.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./contact.component.css */ "./src/app/contact/contact.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./contact.component.scss */ "./src/app/contact/contact.component.scss")).default]
     })
 ], ContactComponent);
 
@@ -901,9 +901,9 @@ ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/fifthgrade/fifthgrade.component.css":
+/***/ "./src/app/fifthgrade/fifthgrade.component.scss":
 /*!*****************************************************!*\
-  !*** ./src/app/fifthgrade/fifthgrade.component.css ***!
+  !*** ./src/app/fifthgrade/fifthgrade.component.scss ***!
   \*****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -954,7 +954,7 @@ FifthgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-fifthgrade",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./fifthgrade.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/fifthgrade/fifthgrade.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fifthgrade.component.css */ "./src/app/fifthgrade/fifthgrade.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fifthgrade.component.scss */ "./src/app/fifthgrade/fifthgrade.component.scss")).default]
     })
 ], FifthgradeComponent);
 
@@ -962,9 +962,9 @@ FifthgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/firstgrade/firstgrade.component.css":
+/***/ "./src/app/firstgrade/firstgrade.component.scss":
 /*!*****************************************************!*\
-  !*** ./src/app/firstgrade/firstgrade.component.css ***!
+  !*** ./src/app/firstgrade/firstgrade.component.scss ***!
   \*****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1015,7 +1015,7 @@ FirstgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-firstgrade",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./firstgrade.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/firstgrade/firstgrade.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./firstgrade.component.css */ "./src/app/firstgrade/firstgrade.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./firstgrade.component.scss */ "./src/app/firstgrade/firstgrade.component.scss")).default]
     })
 ], FirstgradeComponent);
 
@@ -1023,9 +1023,9 @@ FirstgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/footer/footer.component.css":
+/***/ "./src/app/footer/footer.component.scss":
 /*!*********************************************!*\
-  !*** ./src/app/footer/footer.component.css ***!
+  !*** ./src/app/footer/footer.component.scss ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1059,7 +1059,7 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-footer',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./footer.component.scss */ "./src/app/footer/footer.component.scss")).default]
     })
 ], FooterComponent);
 
@@ -1067,9 +1067,9 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/fourthgrade/fourthgrade.component.css":
+/***/ "./src/app/fourthgrade/fourthgrade.component.scss":
 /*!*******************************************************!*\
-  !*** ./src/app/fourthgrade/fourthgrade.component.css ***!
+  !*** ./src/app/fourthgrade/fourthgrade.component.scss ***!
   \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1120,7 +1120,7 @@ FourthgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-fourthgrade",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./fourthgrade.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/fourthgrade/fourthgrade.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fourthgrade.component.css */ "./src/app/fourthgrade/fourthgrade.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./fourthgrade.component.scss */ "./src/app/fourthgrade/fourthgrade.component.scss")).default]
     })
 ], FourthgradeComponent);
 
@@ -1128,9 +1128,9 @@ FourthgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/history/history.component.css":
+/***/ "./src/app/history/history.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/history/history.component.css ***!
+  !*** ./src/app/history/history.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1181,7 +1181,7 @@ HistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-history",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./history.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/history/history.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./history.component.css */ "./src/app/history/history.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./history.component.scss */ "./src/app/history/history.component.scss")).default]
     })
 ], HistoryComponent);
 
@@ -1189,9 +1189,9 @@ HistoryComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/homepage/homepage.component.css":
+/***/ "./src/app/homepage/homepage.component.scss":
 /*!*************************************************!*\
-  !*** ./src/app/homepage/homepage.component.css ***!
+  !*** ./src/app/homepage/homepage.component.scss ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1251,7 +1251,7 @@ HomepageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-homepage",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./homepage.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/homepage/homepage.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./homepage.component.css */ "./src/app/homepage/homepage.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./homepage.component.scss */ "./src/app/homepage/homepage.component.scss")).default]
     })
 ], HomepageComponent);
 
@@ -1259,9 +1259,9 @@ HomepageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/kindergarten/kindergarten.component.css":
+/***/ "./src/app/kindergarten/kindergarten.component.scss":
 /*!*********************************************************!*\
-  !*** ./src/app/kindergarten/kindergarten.component.css ***!
+  !*** ./src/app/kindergarten/kindergarten.component.scss ***!
   \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1312,7 +1312,7 @@ KindergartenComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-kindergarten",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./kindergarten.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/kindergarten/kindergarten.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./kindergarten.component.css */ "./src/app/kindergarten/kindergarten.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./kindergarten.component.scss */ "./src/app/kindergarten/kindergarten.component.scss")).default]
     })
 ], KindergartenComponent);
 
@@ -1320,9 +1320,9 @@ KindergartenComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/math/math.component.css":
+/***/ "./src/app/math/math.component.scss":
 /*!*****************************************!*\
-  !*** ./src/app/math/math.component.css ***!
+  !*** ./src/app/math/math.component.scss ***!
   \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1373,7 +1373,7 @@ MathComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-math",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./math.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/math/math.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./math.component.css */ "./src/app/math/math.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./math.component.scss */ "./src/app/math/math.component.scss")).default]
     })
 ], MathComponent);
 
@@ -1381,9 +1381,9 @@ MathComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/mission/mission.component.css":
+/***/ "./src/app/mission/mission.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/mission/mission.component.css ***!
+  !*** ./src/app/mission/mission.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1417,7 +1417,7 @@ MissionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-mission',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./mission.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/mission/mission.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./mission.component.css */ "./src/app/mission/mission.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./mission.component.scss */ "./src/app/mission/mission.component.scss")).default]
     })
 ], MissionComponent);
 
@@ -1425,9 +1425,9 @@ MissionComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/navbar/navbar.component.css":
+/***/ "./src/app/navbar/navbar.component.scss":
 /*!*********************************************!*\
-  !*** ./src/app/navbar/navbar.component.css ***!
+  !*** ./src/app/navbar/navbar.component.scss ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1460,7 +1460,7 @@ NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-navbar",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/navbar/navbar.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navbar.component.css */ "./src/app/navbar/navbar.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navbar.component.scss */ "./src/app/navbar/navbar.component.scss")).default]
     })
 ], NavbarComponent);
 
@@ -1468,9 +1468,9 @@ NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/reading/reading.component.css":
+/***/ "./src/app/reading/reading.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/reading/reading.component.css ***!
+  !*** ./src/app/reading/reading.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1521,7 +1521,7 @@ ReadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-reading",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./reading.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/reading/reading.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./reading.component.css */ "./src/app/reading/reading.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./reading.component.scss */ "./src/app/reading/reading.component.scss")).default]
     })
 ], ReadingComponent);
 
@@ -1529,9 +1529,9 @@ ReadingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/science/science.component.css":
+/***/ "./src/app/science/science.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/science/science.component.css ***!
+  !*** ./src/app/science/science.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1583,7 +1583,7 @@ ScienceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-science",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./science.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/science/science.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./science.component.css */ "./src/app/science/science.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./science.component.scss */ "./src/app/science/science.component.scss")).default]
     })
 ], ScienceComponent);
 
@@ -1591,9 +1591,9 @@ ScienceComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/secondgrade/secondgrade.component.css":
+/***/ "./src/app/secondgrade/secondgrade.component.scss":
 /*!*******************************************************!*\
-  !*** ./src/app/secondgrade/secondgrade.component.css ***!
+  !*** ./src/app/secondgrade/secondgrade.component.scss ***!
   \*******************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1644,7 +1644,7 @@ SecondgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-secondgrade",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./secondgrade.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/secondgrade/secondgrade.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./secondgrade.component.css */ "./src/app/secondgrade/secondgrade.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./secondgrade.component.scss */ "./src/app/secondgrade/secondgrade.component.scss")).default]
     })
 ], SecondgradeComponent);
 
@@ -1652,9 +1652,9 @@ SecondgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/specialneeds/specialneeds.component.css":
+/***/ "./src/app/specialneeds/specialneeds.component.scss":
 /*!*********************************************************!*\
-  !*** ./src/app/specialneeds/specialneeds.component.css ***!
+  !*** ./src/app/specialneeds/specialneeds.component.scss ***!
   \*********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1687,7 +1687,7 @@ SpecialneedsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-specialneeds",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./specialneeds.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/specialneeds/specialneeds.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./specialneeds.component.css */ "./src/app/specialneeds/specialneeds.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./specialneeds.component.scss */ "./src/app/specialneeds/specialneeds.component.scss")).default]
     })
 ], SpecialneedsComponent);
 
@@ -1695,9 +1695,9 @@ SpecialneedsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/spelling/spelling.component.css":
+/***/ "./src/app/spelling/spelling.component.scss":
 /*!*************************************************!*\
-  !*** ./src/app/spelling/spelling.component.css ***!
+  !*** ./src/app/spelling/spelling.component.scss ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1731,7 +1731,7 @@ SpellingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-spelling',
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./spelling.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/spelling/spelling.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./spelling.component.css */ "./src/app/spelling/spelling.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./spelling.component.scss */ "./src/app/spelling/spelling.component.scss")).default]
     })
 ], SpellingComponent);
 
@@ -1739,9 +1739,9 @@ SpellingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/thirdgrade/thirdgrade.component.css":
+/***/ "./src/app/thirdgrade/thirdgrade.component.scss":
 /*!*****************************************************!*\
-  !*** ./src/app/thirdgrade/thirdgrade.component.css ***!
+  !*** ./src/app/thirdgrade/thirdgrade.component.scss ***!
   \*****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1792,7 +1792,7 @@ ThirdgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-thirdgrade",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./thirdgrade.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/thirdgrade/thirdgrade.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./thirdgrade.component.css */ "./src/app/thirdgrade/thirdgrade.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./thirdgrade.component.scss */ "./src/app/thirdgrade/thirdgrade.component.scss")).default]
     })
 ], ThirdgradeComponent);
 
@@ -1800,9 +1800,9 @@ ThirdgradeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/writing/writing.component.css":
+/***/ "./src/app/writing/writing.component.scss":
 /*!***********************************************!*\
-  !*** ./src/app/writing/writing.component.css ***!
+  !*** ./src/app/writing/writing.component.scss ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1835,7 +1835,7 @@ WritingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-writing",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./writing.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/writing/writing.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./writing.component.css */ "./src/app/writing/writing.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./writing.component.scss */ "./src/app/writing/writing.component.scss")).default]
     })
 ], WritingComponent);
 
@@ -1843,9 +1843,9 @@ WritingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/youtube-frame/youtube-frame.component.css":
+/***/ "./src/app/youtube-frame/youtube-frame.component.scss":
 /*!***********************************************************!*\
-  !*** ./src/app/youtube-frame/youtube-frame.component.css ***!
+  !*** ./src/app/youtube-frame/youtube-frame.component.scss ***!
   \***********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1895,7 +1895,7 @@ YoutubeFrameComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: "app-youtube-frame",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./youtube-frame.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/youtube-frame/youtube-frame.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./youtube-frame.component.css */ "./src/app/youtube-frame/youtube-frame.component.css")).default]
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./youtube-frame.component.scss */ "./src/app/youtube-frame/youtube-frame.component.scss")).default]
     })
 ], YoutubeFrameComponent);
 

@@ -4,7 +4,7 @@ import { HostListener } from "@angular/core";
 @Component({
   selector: "app-fourthgrade",
   templateUrl: "./fourthgrade.component.html",
-  styleUrls: ["./fourthgrade.component.css"],
+  styleUrls: ["./fourthgrade.component.scss"],
 })
 export class FourthgradeComponent implements OnInit {
   scrolled = 0;
