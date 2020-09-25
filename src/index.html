@@ -52,24 +52,32 @@
       $(".dropdown-menu").click(function () {
         $(this).removeClass('hover-state');
 
+
+        $(".nav-item").click(function () {
+          $('.dropdown-menu', this).addClass('hover-state');
+        });
+
+        $(".nav-item").click(function () {
+          $('.dropdown-menu', this).removeClass('hover-state');
+        });
       });
 
       // window.addEventListener('locationchange', function () {
       // });
     });
 
-    $(document).ready(function () {
-      $('.nav-link').hover(function () {
-        $('.nav-link', this).addClass('hover-state');
-      }, function () {
-        $('.nav-link', this).removeClass('hover-state');
-      });
+    // $(document).ready(function () {
+    //   $('.nav-link').hover(function () {
+    //     $('.nav-link', this).addClass('hover-state');
+    //   }, function () {
+    //     $('.nav-link', this).removeClass('hover-state');
+    //   });
 
-      $('.dropdown-menu').click(function () {
-        $('.nav-link').removeClass('hover-state');
+    //   $('.dropdown-menu').click(function () {
+    //     $('.nav-link').removeClass('hover-state');
 
-      });
-    });
+    //   });
+    // });
 
     var oldLocation = '';
     var newLocation = '';
