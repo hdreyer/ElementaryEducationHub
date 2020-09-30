@@ -107,18 +107,23 @@ button {
 } */
 
 .navbar a:hover,
+.navbar a:active,
 .navbar .nav-link:hover,
-button:hover {
+.navbar .nav-link:active,
+button:hover,
+button:active {
   background-color: #d6d6d6;
   color: black;
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover,
+.dropdown-item:active {
   background-color: #d6d6d6;
   color: black;
 }
 
-.nav-item:hover .dropdown-toggle {
+.nav-item:hover .dropdown-toggle,
+.nav-item:active .dropdown-toggle {
   background-color: #d6d6d6;
   color: black;
 }
@@ -142,7 +147,9 @@ button:hover {
   text-decoration: none;
   margin-left: 0px;
   padding-left: 0px;
+  padding-top: 0px;
   background-color: #d6d6d6;
+  border: 5px #d6d6d6;
   color: black;
   position: absolute;
   min-width: 100%;
@@ -162,7 +169,9 @@ button:hover {
 
 /* Add a dark background color on hover */
 .subnav-content a:hover,
-.nav-item .dropdown-menu .dropdown-item:hover {
+.subnav-content a:active,
+.nav-item .dropdown-menu .dropdown-item:hover,
+.nav-item .dropdown-menu .dropdown-item:active {
   background-color: #333;
   text-align: left;
   width: 100%;
@@ -174,8 +183,13 @@ button:hover {
   color: black;
 } */
 
-.dropdown-menu.hover-state {
+.dropdown-menu.hover-state,
+.dropdown-menu:active {
   display: block;
+}
+
+#dropdownBasic1:hover {
+  display: block
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active,
@@ -187,16 +201,20 @@ button:hover {
 }
 
 @media screen and (max-width: 991px) {
-  div.dropdown-menu.hover-state {
+
+  div.dropdown-menu.hover-state,
+  .div.dropdown-menu:active {
     position: relative;
   }
 }
+
 
 /* .navbar-dark .navbar-nav .nav-link.hover-state {
   color: red;
 } */
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
   color: black;
 }
 
