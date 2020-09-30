@@ -16,9 +16,10 @@ header {
   justify-content: center;
 }
 
-.nav-item > .nav-link {
+.nav-item>.nav-link {
   color: white;
 }
+
 /* .flex-container nav {
   justify-content: space-between;
 } */
@@ -174,14 +175,14 @@ button:hover {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled).active,
-.show > .btn-outline-primary.dropdown-toggle {
+.show>.btn-outline-primary.dropdown-toggle {
   background-color: #d6d6d6;
   color: black;
   border: none;
 }
 
 @media screen and (max-width: 991px) {
-  ul.dropdown-menu.hover-state {
+  div.dropdown-menu.hover-state {
     position: relative;
   }
 }
