@@ -28,7 +28,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgImageSliderModule } from "ng-image-slider";
 import { NgxPageScrollCoreModule } from "ngx-page-scroll-core";
 import { NgxPageScrollModule } from "ngx-page-scroll";
-import { YoutubeFrameComponent } from './youtube-frame/youtube-frame.component';
+import { NgbDropdownModule, NgbNavModule } from "@ng-bootstrap/ng-bootstrap";
+import { YoutubeFrameComponent } from "./youtube-frame/youtube-frame.component";
 
 @NgModule({
   declarations: [
@@ -62,6 +63,8 @@ import { YoutubeFrameComponent } from './youtube-frame/youtube-frame.component';
     NgImageSliderModule,
     NgxPageScrollCoreModule,
     NgxPageScrollModule,
+    NgbDropdownModule,
+    NgbNavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
