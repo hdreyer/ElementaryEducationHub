@@ -42,21 +42,16 @@
         $('.dropdown-menu', this).removeClass('hover-state');
       });
 
-      $(".dropdown-menu").click(function () {
-        $(this).removeClass('hover-state');
-
-
-        //  $(".nav-item").click(function () {
-        //   $('.dropdown-menu', this).addClass('hover-state');
-        // });
-
-        // $(".nav-item").click(function () {
-        //   $('.dropdown-menu', this).removeClass('hover-state');
-        // });
+      $('#dropdownBasic1').click(function () {
+        $('#dropdownBasic1', this).addclass('hover-state');
+      }, function () {
+        $('#dropdownBasic1', this).removeClass('hover-state');
       });
 
-      // window.addEventListener('locationchange', function () {
-      // });
+      $(".dropdown-menu").click(function () {
+        $(this).removeClass('hover-state');
+      });
+
     });
 
     // $(document).ready(function () {

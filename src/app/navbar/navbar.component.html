@@ -80,15 +80,17 @@
                         <li class="nav-item dropdown" ngbDropdown>
                             <button class="btn btn-outline-primary nav-link" id="dropdownBasic1"
                                 style="border-radius: 0px" ngbDropdownToggle>Resources By Subject</button>
-
-                            <ul class="dropdown-menu list-unstyled">
-                                <li> <a ngbDropdownItem routerLink="/math" class="dropdown-item">Math</a></li>
-                                <li> <a ngbDropdownItem routerLink="/reading" class="dropdown-item">Reading</a></li>
-                                <li> <a ngbDropdownItem routerLink="/history" class="dropdown-item">Social Studies</a>
-                                </li>
-                                <li> <a ngbDropdownItem routerLink="/science" class="dropdown-item">Science</a></li>
-                                <li> <a ngbDropdownItem routerLink="/art" class="dropdown-item">Art</a></li>
-                            </ul>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-menu">
+                                <ul class="list-unstyled">
+                                    <li> <a ngbDropdownItem routerLink="/math">Math</a></li>
+                                    <li> <a ngbDropdownItem routerLink="/reading">Reading</a></li>
+                                    <li> <a ngbDropdownItem routerLink="/history">Social
+                                            Studies</a>
+                                    </li>
+                                    <li> <a ngbDropdownItem routerLink="/science">Science</a></li>
+                                    <li> <a ngbDropdownItem routerLink="/art">Art</a></li>
+                                </ul>
+                            </div>
                         </li>
 
                         <li>
