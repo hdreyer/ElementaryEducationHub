@@ -42,10 +42,12 @@
         $('.dropdown-menu', this).removeClass('hover-state');
       });
 
+      // When I had dropdown-menu as the item to add class to down below, on mobile it won't close no matter where you click 
+
       $('#dropdownBasic1').click(function () {
-        $('.dropdown-menu', this).addclass('hover-state');
+        $('#dropdownBasic1', this).addclass('hover-state');
       }, function () {
-        $('.dropdown-menu', this).removeClass('hover-state');
+        $('#dropdownBasic1', this).removeClass('hover-state');
       });
 
       $(".dropdown-menu").click(function () {
