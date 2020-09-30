@@ -75,10 +75,12 @@ button {
 .subnav .subnavbtn,
 .dropdown-menu {
   font-size: 16px;
+  text-align: left;
   border: none;
+  border-radius: 0px;
   outline: none;
   color: #ffffff;
-  padding: 14px 16px;
+  // padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -88,7 +90,7 @@ button {
   font-size: 16px;
   border: none;
   outline: none;
-  padding: 14px 16px;
+  // padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -168,6 +170,20 @@ button:hover {
 
 .dropdown-menu.hover-state {
   display: block;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #d6d6d6;
+  color: black;
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  ul.dropdown-menu.hover-state {
+    position: relative;
+  }
 }
 
 /* .navbar-dark .navbar-nav .nav-link.hover-state {

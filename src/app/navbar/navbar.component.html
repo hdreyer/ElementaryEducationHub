@@ -6,65 +6,111 @@
     </div>
 </header>
 
-<!-- The navigation menu -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <!-- <div class="d-flex justify-content-around"> -->
-    <!-- <div class="navbar" id="topNav"></div> -->
 
-    <button routerLink="" class="btn btn-light d-inline-block d-md-none">
-        <span><i class="fa fa-home fa-lg" aria-hidden="true"></i></span>
-    </button>
 
-    <!-- Toggler/collapsible Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span><i class="fa fa-bars"></i></span>
-    </button>
+<!-- <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Action - 1</button>
+                <button ngbDropdownItem>Another Action</button>
+                <button ngbDropdownItem>Something else is here</button> -->
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav" style="width: 100%; justify-content: space-around;">
-            <li class="nav-item d-none d-md-inline-block home">
-                <a routerLink="" routerLinkActive="active" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" data-toggle="dropdown">Resources
-                    By Grade </button>
-                <ul class="dropdown-menu">
-                    <li> <a routerLink="/kindergarten" class="dropdown-item">Kindergarten</a></li>
-                    <li><a routerLink="/firstgrade" class="dropdown-item">First Grade</a></li>
-                    <li><a routerLink="/secondgrade" class="dropdown-item">Second Grade</a></li>
-                    <li><a routerLink="/thirdgrade" class="dropdown-item">Third Grade</a></li>
-                    <li><a routerLink="/fourthgrade" class="dropdown-item">Fourth Grade</a></li>
-                    <li><a routerLink="/fifthgrade" class="dropdown-item">Fifth Grade</a></li>
-                </ul>
-            </li>
 
-            <li class="nav-item dropdown">
-                <button class="nav-link dropdown-toggle" data-toggle="dropdown">Resources
-                    by Subject </button>
-                <ul class="dropdown-menu">
-                    <li> <a routerLink="/math" class="dropdown-item">Math</a></li>
-                    <li> <a routerLink="/reading" class="dropdown-item">Reading</a></li>
-                    <li> <a routerLink="/history" class="dropdown-item">Social Studies</a></li>
-                    <li> <a routerLink="/science" class="dropdown-item">Science</a></li>
-                    <li> <a routerLink="/art" class="dropdown-item">Art</a></li>
-                </ul>
-            </li>
+<div class="row">
+    <div class="col">
+        <div ngbDropdown class="d-inline-block" style="width: 100%">
 
-            <li>
-                <a routerLink="/specialneeds" class="sped nav-link" style="float: left">Special Education
-                    Resources</a>
-            </li>
+            <!-- The navigation menu -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <!-- <div class="d-flex justify-content-around"> -->
+                <!-- <div class="navbar" id="topNav"></div> -->
 
-            <li>
-                <a routerLink="/mission" class="ourMission nav-link" style="float: left">Our Mission</a>
-            </li>
-        </ul>
+                <button routerLink="" class="btn btn-light d-inline-block d-md-none">
+                    <span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>
+                </button>
+
+                <!-- Toggler/collapsible Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><i class="fa fa-bars"></i></span>
+                </button>
+
+
+
+                <!-- <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" ngbDropdown>
+                <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button">
+                    Static
+                </a>
+                <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Action</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Another action</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Something else here</a>
+                </div>
+            </li> -->
+
+
+                <div class="collapse navbar-collapse" [class.collapse]="collapsed" id="collapsibleNavbar">
+                    <ul class="navbar-nav" style="width: 100%; justify-content: space-around;">
+                        <li class="nav-item d-none d-md-inline-block home">
+                            <a routerLink="" routerLinkActive="active" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown" ngbDropdown>
+                            <button class="btn btn-outline-primary nav-link" id="dropdownBasic1"
+                                style="border-radius: 0px" ngbDropdownToggle>Resources By Grade</button>
+                            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-menu">
+                                <ul class="list-unstyled">
+                                    <!-- <ul class="list-unstyled"> -->
+                                    <li style="border: none; text-align: left"> <a ngbDropdownItem
+                                            routerLink="/kindergarten">Kindergarten</a>
+                                    </li>
+                                    <li> <a ngbDropdownItem routerLink="/firstgrade">First
+                                            Grade</a> </li>
+                                    <li> <a ngbDropdownItem routerLink="/secondgrade">Second
+                                            Grade</a> </li>
+                                    <li> <a ngbDropdownItem routerLink="/thirdgrade">Third
+                                            Grade</a> </li>
+                                    <li> <a ngbDropdownItem routerLink="/fourthgrade">Fourth
+                                            Grade</a></li>
+                                    <li> <a ngbDropdownItem routerLink="/fifthgrade">Fifth
+                                            Grade</a> </li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item dropdown" ngbDropdown>
+                            <button class="btn btn-outline-primary nav-link" id="dropdownBasic1"
+                                style="border-radius: 0px" ngbDropdownToggle>Resources By Subject</button>
+
+                            <ul class="dropdown-menu list-unstyled">
+                                <li> <a ngbDropdownItem routerLink="/math" class="dropdown-item">Math</a></li>
+                                <li> <a ngbDropdownItem routerLink="/reading" class="dropdown-item">Reading</a></li>
+                                <li> <a ngbDropdownItem routerLink="/history" class="dropdown-item">Social Studies</a>
+                                </li>
+                                <li> <a ngbDropdownItem routerLink="/science" class="dropdown-item">Science</a></li>
+                                <li> <a ngbDropdownItem routerLink="/art" class="dropdown-item">Art</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a routerLink="/specialneeds" class="sped nav-link">Special Education
+                                Resources</a>
+                        </li>
+
+
+                        <li>
+                            <a routerLink="/mission" class="ourMission nav-link">Our Mission</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </div>
     </div>
-</nav>
 
 
-<!-- <a href="javascript:void(0);" class="icon" ng-click="myFunction()">
+    <!-- <a href="javascript:void(0);" class="icon" ng-click="myFunction()">
             <i class="fa fa-bars"></i>
         </a> -->
-<!-- </div> -->
-<!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
