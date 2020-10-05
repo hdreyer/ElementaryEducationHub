@@ -11,6 +11,7 @@
   border-right: 4px solid black;
   z-index: 1;
 }
+
 /* .main {
   margin: auto;
   padding-top: 5em;
@@ -100,10 +101,11 @@ iframe {
 }
 
 .gutter {
-  flex-basis: 115px;
+  flex-basis: 155px;
   flex-grow: 0;
   flex-shrink: 0;
 }
+
 /* Small portrait mode devices */
 @media only screen and (max-width: 500px) {
   h3 {
