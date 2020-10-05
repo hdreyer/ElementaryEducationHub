@@ -38,9 +38,9 @@ header {
   /* justify-content: space-between; */
 }
 
-.mx-auto {
-  display: block;
-}
+// .mx-auto {
+//   display: block;
+// }
 
 .nav-link {
   background-color: #333;
@@ -71,14 +71,18 @@ button {
 } */
 
 /* The subnavigation menu */
-.subnav,
-.nav-item {
-  position: relative;
-  display: inline-block;
-}
 
-/* Subnav button */
-.subnav .subnavbtn,
+// .nav-item:active {
+//   position: relative;
+//   display: inline-block;
+// }
+
+// .nav-item:active .dropdown-menu {
+//   position: relative;
+//   display: inline-block
+// }
+
+
 .dropdown-menu {
   font-size: 16px;
   text-align: left;
@@ -107,23 +111,22 @@ button {
 } */
 
 .navbar a:hover,
-.navbar a:active,
 .navbar .nav-link:hover,
-.navbar .nav-link:active,
-button:hover,
-button:active {
+button:hover {
   background-color: #d6d6d6;
   color: black;
 }
 
-.dropdown-item:hover,
-.dropdown-item:active {
+.dropdown-item:hover {
   background-color: #d6d6d6;
   color: black;
 }
 
-.nav-item:hover .dropdown-toggle,
-.nav-item:active .dropdown-toggle {
+// .nav-item:hover {
+//   display:block
+// }
+
+.nav-item:hover .dropdown-toggle {
   background-color: #d6d6d6;
   color: black;
 }
@@ -149,7 +152,6 @@ button:active {
   padding-left: 0px;
   padding-top: 0px;
   background-color: #d6d6d6;
-  border: 5px #d6d6d6;
   color: black;
   position: absolute;
   min-width: 100%;
@@ -168,10 +170,8 @@ button:active {
 }
 
 /* Add a dark background color on hover */
-.subnav-content a:hover,
-.subnav-content a:active,
-.nav-item .dropdown-menu .dropdown-item:hover,
-.nav-item .dropdown-menu .dropdown-item:active {
+.nav-item .dropdown-menu .dropdown-item:hover {
+
   background-color: #333;
   text-align: left;
   width: 100%;
@@ -183,10 +183,7 @@ button:active {
   color: black;
 } */
 
-.dropdown-menu.hover-state,
-.dropdown-menu:active {
-  display: block;
-}
+
 
 #dropdownBasic1:hover {
   display: block
@@ -198,6 +195,12 @@ button:active {
   background-color: #d6d6d6;
   color: black;
   border: none;
+}
+
+// Issue with lines 202-204: on phones, it extends the dropdown button to the right
+
+.nav-item.show.dropdown {
+  background-color: #d6d6d6
 }
 
 @media screen and (max-width: 991px) {
@@ -213,8 +216,7 @@ button:active {
   color: red;
 } */
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:active {
+.navbar-dark .navbar-nav .nav-link:hover {
   color: black;
 }
 
@@ -249,14 +251,12 @@ button:active {
 }
 */
 
-/* @media screen and (max-width: 576px) {
-  .subnav-content .hover-state {
-    display: block;
-    position: absolute;
-    top: 10;
-    left: 10;
+@media screen and (max-width: 576px) {
+  .dropdown-menu.selected {
+    position: relative;
+    display: inline-block
   }
-} */
+}
 
 .navbar-toggler {
   padding: 0.5rem 0.75rem;

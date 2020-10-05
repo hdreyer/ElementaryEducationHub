@@ -23,8 +23,8 @@ import { MissionComponent } from "./mission/mission.component";
 import { FooterComponent } from "./footer/footer.component";
 import { ContactComponent } from "./contact/contact.component";
 
-import { GoTopButtonModule } from "ng2-go-top-button";
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+// import { GoTopButtonModule } from "ng2-go-top-button";
+// import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgImageSliderModule } from "ng-image-slider";
 import { NgxPageScrollCoreModule } from "ngx-page-scroll-core";
 import { NgxPageScrollModule } from "ngx-page-scroll";
@@ -58,8 +58,8 @@ import { YoutubeFrameComponent } from "./youtube-frame/youtube-frame.component";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GoTopButtonModule,
-    BrowserAnimationsModule,
+    // GoTopButtonModule,
+    // BrowserAnimationsModule,
     NgImageSliderModule,
     NgxPageScrollCoreModule,
     NgxPageScrollModule,
